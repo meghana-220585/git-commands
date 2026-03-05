@@ -140,3 +140,51 @@ amend commit but keep same message
 used when :you forgot to add one file but message is correct
 screenshot:![alt text](image-18.png)
 
+part 6 :branch management commands
+
+1.git branch
+purpose:show all local branches.
+screenshot:![alt text](image-19.png)
+
+2.git branch -a
+purpose:shows local branches,remote branches
+screenshot:![alt text](image-20.png)
+
+3.git branch branch-name
+purpose:this creates branch but does not switch
+screenshot:![alt text](image-21.png)
+
+4.git checkout 
+syntax:git checkout beanch-name
+purpose:switch to another branch
+screenshot:![alt text](image-22.png)
+
+5.git checkout -b
+syntax:git checkout -b new-branch
+purpose:creates and switchs branch in one command
+screenshot:![alt text](image-23.png)
+
+6.git switch
+syntax:git switch main or git switch -c feature-dashboard
+purpose:modern replacement for checkout
+screenshot:![alt text](image-24.png)
+
+7.git branch -d
+syntax:git branch -d branch-name
+purpose:deletes branch safely
+screenshot:![alt text](image-25.png)
+
+8.git branch -D
+syntax:git branch -D branch-name
+purpose:force dalete branch.even if not merged
+screenshot:![alt text](image-26.png)
+
+part 7:merge integration commands:
+
+merge=combines one branch into another
+in companies,developers=>create feature branch,work on it,merge into main
+
+1.git merge
+syntax:git merge branch-name
+purpose:combines another branch into current branch
+screenshot:
