@@ -187,4 +187,28 @@ in companies,developers=>create feature branch,work on it,merge into main
 1.git merge
 syntax:git merge branch-name
 purpose:combines another branch into current branch
+screenshot:![alt text](image-27.png)
+
+2.git merge --no-ff
+syntax:git merge --no-ff branch-name
+purpose:creates a merge commit even if fast-forward is possible
+screenshot:![alt text](image-28.png)
+
+part 8:remote repository commands
+
+1.git remote
+purpose:shows remote repository names
+screenshot:![alt text](image-29.png)
+
+2.git remote -v
+purpose:shows remote url
+screenshot:![alt text](image-30.png)
+
+3.git remote add
+syntax:git remote add origin repository-url
+purpose:connects your local repo to github
 screenshot:
+
+7.git pull
+purpose:fetch+merge in one command
+screenshot:![alt text](image-31.png)
