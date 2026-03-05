@@ -114,3 +114,29 @@ purpose:deletes file from project and git
 7.git mv
 syntax:git mv oldname newname
 purpose:renames gile in git
+
+
+part 5:commit commands
+
+1.git commit
+purpose:opens editor to write commit message manually
+screenshot:![alt text](image-15.png)
+
+2.git commit -m
+syntax:git commit -m "your message"
+purpose:commit with message in one line
+screenshot:![alt text](image-16.png)
+
+3.git commit --amend
+syntax:git commit --amend
+purpose:edits the last command.
+you can change commit message ,add forgotten file
+screenshot:![alt text](image-17.png)
+
+4.git commit --no-edit 
+syntax:git commit --amend --no-edit
+purpose:
+amend commit but keep same message
+used when :you forgot to add one file but message is correct
+screenshot:![alt text](image-18.png)
+
