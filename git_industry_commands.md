@@ -84,3 +84,33 @@ screenshot:![alt text](image-8.png)
 10.git shortlog:
 purpose:shows summary of commits grouped by author.
 screenshot:![alt text](image-9.png)
+
+part 4:file tracking commands
+
+1.git add
+purpose:adds a specific file to the staging area
+screenshot:![alt text](image-11.png)
+ 
+ 2.git add .
+ purpose:adds all modified files to staging area
+ screenshot:![alt text](image-12.png)
+
+ 3.git add -p
+ purpose:adds changes part by part(patch by patch)
+
+4.git restore:
+syntax:git restore filename
+purpose:undo changes in working directory (before staging).
+
+5.git restore --staged
+syntax:git restore --staged filename
+purpose:removes file from staging area
+screenshot:![alt text](image-14.png)
+
+6.git rm
+syntax:git rm filename
+purpose:deletes file from project and git
+
+7.git mv
+syntax:git mv oldname newname
+purpose:renames gile in git

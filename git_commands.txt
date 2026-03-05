@@ -1,0 +1,47 @@
+git configuration commands:
+
+1.
+syntax:git config --global user.name
+purpose:it sets your name in git.
+        this name appears in your commits.
+
+2.
+syntax:git config --global user.email
+purpose:sets your email address for commits.
+        github connents commits to your account using email
+
+3.
+syntax:git config --list
+purpose:shows all your git configuration settings
+
+4.
+syntax:git config --unset user.name
+purpose:removes a configuration value
+
+screenshot:git-commands/git_config.png
+
+5
+name:git init
+syntax:git init
+purpose:git creates a hidden .git folder
+        first step to start version control
+screenshot:git-commands/git_init.png
+
+6.
+name:git clone
+syntax:git clone repository_url
+screenshot:git-commands/git_clone.png
+
+7.
+name:git clone --branch
+syntax:git clone --branch branch_name repository_url
+screenshot:
+
+9.
+syntax:git status
+purpose:it shows current branch
+        modified files
+        staged files
+screenshot:git-commands/git_status.png
+
+part 3:repository status and inspection commands
