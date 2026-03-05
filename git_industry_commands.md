@@ -38,3 +38,49 @@ screenshot:![alt text](image-1.png)
 3.git clone --branch branch-name repository -url
 purpose:clones only a specific branch
 
+part 3:repository status and inspection commands
+
+1.git status:
+syntax:git status
+purpose:shows modified files,untracked files files ready to commit
+screenshot:![alt text](image-2.png)
+
+2.git log 
+syntax:git log
+purpose:shows full commit history
+it displays commit id ,author,date,message
+screenshot:![alt text](image-3.png)
+
+3.git log --oneline
+purpose:shows commit history in short format
+screenshot:![alt text](image-4.png)
+
+4.git log --graph
+purpose:shows commit history as a tree graph (useful for branches)
+screenshot:![alt text](image-5.png)
+
+5.git show 
+syntax:git show or git show commitID
+purpose:shows detailed information about a commit
+screenshot:
+
+6.git diff
+purpose:shows what changes you made before commiting.
+screenshot:![alt text](image-6.png)
+
+7.git diff --staged:
+purpose:shows changes that are added but not commited.
+screenshot:![alt text](image-7.png)
+
+8.git blame
+syntax:git blame filename
+purpose:shows who modified each line in a file
+screenshot:![alt text](image-10.png)
+
+9.git reflog:
+purpose:shows history of head changes (very helpful to recover lost commits)
+screenshot:![alt text](image-8.png)
+
+10.git shortlog:
+purpose:shows summary of commits grouped by author.
+screenshot:![alt text](image-9.png)
